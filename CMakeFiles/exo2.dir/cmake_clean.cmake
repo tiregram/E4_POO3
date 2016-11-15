@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/exo2.dir/src/io/exo2.cpp.o"
-  "exo2.pdb"
-  "exo2"
+  "bin/exo2.pdb"
+  "bin/exo2"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -28,13 +28,13 @@ foo(const std::string& a, const std::string& b)
 {
   std::string  c;
   c.resize(a.size()+b.size()+1);
-  for (unsigned int i = 0; i < a.size(); i++) {
-    c[i] = a[i];
-  }
+  int i = 0;
 
-  for (unsigned int i = 0; i < b.size(); i++) {
-    c[a.size()+i] = b[i];
-  }
+  for(auto ite : a)
+    c[i++] = ite;
+
+  for(auto ite : b)
+    c[i++] = ite;
 
   return c;
 }

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ruhtra/projets/E4_POO3/src/io/exo2.cpp
+iostream
+-
+fstream
+-
+string
+-
+stdlib.h
+-
+

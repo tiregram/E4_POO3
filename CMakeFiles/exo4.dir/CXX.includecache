@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ruhtra/projets/E4_POO3/src/cls/exo4.cpp
+cstddef
+-
+iostream
+-
+exo4.hpp
+/home/ruhtra/projets/E4_POO3/src/cls/exo4.hpp
+
+/home/ruhtra/projets/E4_POO3/src/cls/exo4.hpp
+
